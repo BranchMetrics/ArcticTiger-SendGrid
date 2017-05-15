@@ -5,7 +5,9 @@ Any use of the visual editor in SendGrid will break the template and prevent Bra
   - To edit: https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html 
   - To preview changes: https://branchmetrics.github.io/ArcticTiger-SendGrid/sendgrid.html 
 
-## 2. Update the SendGrid Default Template. In the SendGrid dashboard: 
+## 2. Update the SendGrid Default Template.
+
+### In the SendGrid dashboard: 
   1. Templates > Transactional 
   2. Actions > Edit 
   3. IMPORTANT: Drag and drop editor: OFF 
