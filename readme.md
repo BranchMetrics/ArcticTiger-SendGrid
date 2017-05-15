@@ -2,9 +2,8 @@ Any use of the visual editor in SendGrid will break the template and prevent Bra
 
 1. Update the sendgrid.html template  
 
-To edit: https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html
-
-To preview changes: https://branchmetrics.github.io/ArcticTiger-SendGrid/sendgrid.html
+  - To edit: https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html 
+  - To preview changes: https://branchmetrics.github.io/ArcticTiger-SendGrid/sendgrid.html 
 
 2. Update the SendGrid Default Template  
 
