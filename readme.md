@@ -1,6 +1,6 @@
 Any use of the visual editor in SendGrid will break the template and prevent Branch links from working. To edit the template it is necessary to do the following:
 
-## 1. Update the sendgrid.html template  
+## 1. Update the sendgrid.html file  
 
   - To edit: https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html 
   - To preview changes: https://branchmetrics.github.io/ArcticTiger-SendGrid/sendgrid.html 
