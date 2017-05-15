@@ -1,26 +1,26 @@
 Any use of the visual editor in SendGrid will break the template and prevent Branch links from working. To edit the template it is necessary to do the following:
 
-# - Update the sendgrid.html template  
+1. Update the sendgrid.html template  
 
 To edit: https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html
 
 To preview changes: https://branchmetrics.github.io/ArcticTiger-SendGrid/sendgrid.html
 
-# - Update the SendGrid Default Template  
+2. Update the SendGrid Default Template  
 
 In the SendGrid dashboard: 
- # Templates > Transactional 
- # Actions > Edit 
- # IMPORTANT: Drag and drop editor: OFF 
- # Select the "<> CODE" toggle at the top of the screen 
- # Paste in the text from https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html 
- # Click the "Save Template" button 
+ 1. Templates > Transactional 
+ 2. Actions > Edit 
+ 3. IMPORTANT: Drag and drop editor: OFF 
+ 4. Select the "<> CODE" toggle at the top of the screen 
+ 5. Paste in the text from https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/sendgrid.html 
+ 6. Click the "Save Template" button 
 
-# - Send a test message
- # Templates > Transactional
- # Actions > Preview & Test
- # Click on the Send Test button
- # There are currently five Journey templates available, for which I've created and started five different Journeys. I've listed the full URLs for each active Journey here:
+3. Send a test message
+ 1. Templates > Transactional
+ 2. Actions > Preview & Test
+ 3. Click on the Send Test button
+ 4. There are currently five Journey templates available, for which I've created and started five different Journeys. I've listed the full URLs for each active Journey here:
 
 https://github.com/BranchMetrics/ArcticTiger-SendGrid/blob/master/index.html
 
