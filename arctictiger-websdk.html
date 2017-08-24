@@ -15,14 +15,12 @@
 		   changeUrlAndLoadJourney(queryParams["journey"]); 
 	    }
 	    
-	    window.onload = changeUrlAndLoadJourney(url.searchParams.get("journeys"));
-	    
 	    function changeUrlAndLoadJourney(whichJourney) {
 		    if (whichJourney === 'full_page_interstitial_1') {
 			    
 		    }
 		    history.pushState("", "", "?journey=" + whichJourney);
-		    branch.closeJourney();
+		    branch.closeJourney(function(err) { console.log(err); });
 		    branch.trackPageView();
 	    }
 
