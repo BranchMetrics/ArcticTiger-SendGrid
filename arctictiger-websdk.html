@@ -21,7 +21,7 @@
 		    }
 		    history.pushState("", "", "?journey=" + whichJourney);
 		    branch.closeJourney(function(err) { console.log(err); });
-		    branch.trackPageView();
+		    branch.track('pageview', {}, {'disable_exit_animation' : true});
 	    }
 
 </script>
