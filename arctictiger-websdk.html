@@ -20,7 +20,7 @@
 			    
 		    }
 		    history.pushState("", "", "?journey=" + whichJourney);
-		    branch.closeJourney(function(err) { console.log(err); });
+		    branch.closeJourney();
 		    branch.track('pageview', {}, {'disable_exit_animation' : true});
 	    }
 
