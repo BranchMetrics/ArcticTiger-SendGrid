@@ -13,10 +13,11 @@
 	    
 	    function changeUrlAndLoadJourney(whichJourney) {
 		    if (whichJourney === 'full_page_interstitial_1') {
-			    history.pushState("", "", "?journey=full_page_interstitial_1");
-			    branch.closeJourney();
-			    branch.trackPageView();
+			    
 		    }
+		    history.pushState("", "", "?journey=" + whichJourney);
+		    branch.closeJourney();
+		    branch.trackPageView();
 	    }
 
 </script>
