@@ -9,10 +9,7 @@
 	    branch.init('key_live_hgAipS501N4T3OqvCD3ihankEroZrCP0');
 	    
 	    if (!url) url = window.location.href;
-	    var c = url.searchParams.get("journeys");
-	    console.log(c);
-	    
-	    window.onload = changeUrlAndLoadJourney(c);
+	    window.onload = changeUrlAndLoadJourney(url.searchParams.get("journeys"));
 	    
 	    function changeUrlAndLoadJourney(whichJourney) {
 		    if (whichJourney === 'full_page_interstitial_1') {
